@@ -1,0 +1,11 @@
+.whitebody {
+  padding: 800px;
+  text-align: center;
+  background: white;
+  color: white;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 2px;
+}
