@@ -1,2 +1,2 @@
 # OzBargain-Repo
-Just a non-functioning OzBargain clone.
+Just a functioning OzBargain clone.
