@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>OzBargain 2.0</title>
+</head>
+<body>
+    <h1>Welcome to OzBargain 2.0!</h1>
+    <form>
+        <input id="t" type="text" placeholder="Search for deals"/>
+	<input type="button" value="Find Deals" onclick="var terms=document.getElementById('t').value;terms=terms.replace(/ /g,'+');window.location='https://www.ozbargain.com.au/search/node/'+terms"/>
+    </form>
+    <p style="font-size:10;color:rgba(0,0,0,0.1);top:90%;position:absolute">This site is in no way intended to be an actual OzBargain replacement. It's just a shitty 'clone' that redirects you to the official site.</p>
+</body>
+</html>
