@@ -1,12 +1,27 @@
 .whitebody {
-  padding: 800px;
-  text-align: center;
-  background: white;
-  color: white;
-  font-size: 30px;
-  margin-top: 0px;
-  margin-left: 150px;
-  margin-right: 150px;
-  height: 2px;
-  position: absolute;
+    background: white;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-width: 960px;
+    max-width: 1600px;
+    position: absolute;
+}
+
+#deals {
+    height: 200px;
+    width: 400px;
+    color: black;
+    text-align: left;
+    margin-left:50px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 20px; 
+}
+
+p{
+    font-size:14px;
 }
