@@ -20,6 +20,9 @@
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+  background-color: #ddd;
+  color: #28b818;
+}
 
 .show {display: block;}
