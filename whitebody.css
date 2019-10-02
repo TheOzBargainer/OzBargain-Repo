@@ -11,9 +11,8 @@
 }
 
 #deals {
-    height: 200px;
     width: 400px;
-    color: black;
+    color: #000000;
     text-align: left;
     margin-left:50px;
     margin-top: 20px;
