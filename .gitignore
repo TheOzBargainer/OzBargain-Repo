@@ -3,3 +3,16 @@
 .vs/ProjectSettings.json
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore composer vendor directory
+/vendor
+
+# ignore components loaded via Bower
+/bower_components
