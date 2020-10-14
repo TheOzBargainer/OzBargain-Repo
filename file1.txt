@@ -1,2 +1,2 @@
 This is a text file.
-Okay?
+For the avoidance of doubt, a text file is an electronic repository that, while encoded ultimately in binary, is intended to represent human-readable text strings.
