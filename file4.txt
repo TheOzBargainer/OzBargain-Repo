@@ -1,3 +1,6 @@
 Okay, this is the last file.
 Unless I should put more here?
 IDK.
+Just found out we may have jumped the gun...
+  *To qualify for the official limited edition Hacktoberfest shirt, you must register and make four pull requests between October 1-31.
+  Pull requests can be to any public repo on GitHub
