@@ -1,0 +1,150 @@
+.whitebody {
+    background: white;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-width: 960px;
+    max-width: 1600px;
+    position: absolute;
+}
+
+#deals {
+    width: 600px;
+    color: #000000;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+}
+
+h2{
+    font-size: 20px; 
+}
+
+p{
+    font-size:14px;
+}
+
+/* sidebar styling */
+
+div.sidebar {
+    float: right;
+    width: 250px;
+    padding: 20px 20px 0 0;
+    font-size: 40%;
+}
+div.sidebar ul.ozblist > li {
+    border-top: #ddd solid 1px;
+    border-right: transparent solid 5px;
+    padding: 5px 10px;
+}
+div.sidebar ul.ozblist > li:first-child {
+    border-top: none;
+}
+div.sidebar ul.ozblist > li:hover {
+    background-color: #fff;
+}
+div.sidebar ul.ozblist > li.expired {
+    border-right-color: #c30;
+}
+div.sidebar ul.ozblist > li.new,
+div.sidebar ul.ozblist > li.updated {
+    border-right-color: var(--shade1-bg);
+}
+div.sidebar ul.ozblist > li > span.marker {
+    border-radius: 0 0 0 5px;
+    margin-right: -5px;
+    margin-top: -5px;
+    padding: 2px 4px;
+}
+div.adssidebar2,
+div.adssidebar3,
+div.adstop,
+div.adswiki {
+    margin-bottom: 10px;
+}
+div.block {
+    background-color: #ffeddd;
+    border: #eee solid 1px;
+    margin-bottom: 10px;
+}
+div.block div.item-list {
+    margin-top: 5px;
+}
+div.block h3.blocktitle {
+    background-color: #f3cb76;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 5px;
+}
+div.block h3.blocktitle a i.fa {
+    float: right;
+}
+div.blockcontent {
+    overflow: hidden;
+}
+div.blockcontent.spacer,
+div.blockcontent > div.spacer {
+    line-height: 1.428571429;
+    padding: 5px;
+}
+div.blockcontent > table.data {
+    margin: 5px;
+}
+div.blockcontent div.tabs-content {
+    border: none;
+}
+div.blockcontent div.wikipage {
+    overflow: hidden;
+    padding: 5px 15px;
+}
+ul.ozblist {
+    clear: left;
+    margin: 0;
+    padding: 0;
+}
+ul.ozblist div.item {
+    margin-left: 33px;
+}
+ul.ozblist div.timestamp {
+    color: #888;
+}
+ul.ozblist ul.meta {
+    color: #888;
+    font-size: 85%;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+ul.ozblist ul.meta > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 0;
+}
+ul.ozblist ul.meta > li.votes {
+    background-color: #393;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 120%;
+    padding: 0 5px;
+}
+ul.ozblist > li {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 2px 5px;
+}
+ul.ozblist > li > span.marker {
+    float: right;
+    margin: 0 0 0 4px;
+}
+ul.ozblist > li.unpublished {
+    background-color: #eee;
+}
+ul.ozblist > li.unpublished a {
+    color: #888;
+}
+ul.ozblist > li.unpublished div.timestamp {
+    color: #aaa;
+}
