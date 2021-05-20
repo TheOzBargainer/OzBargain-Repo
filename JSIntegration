@@ -1,0 +1,21 @@
+class Ozbarginer {
+	constructor (ID, firstName, lastName, DOB, signUpDate) {
+		this.ID = ID;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.DOB = DOB;
+		this.signUpDate = signUpDate;
+	}
+
+}
+function NewOzbarginer (firstName, lastName, DOB) {
+	return new Ozbarginer(newID(), firstName, lastName, DOB, Date());
+}
+
+
+
+
+// Test data for Ozbarginer
+
+// test1 = NewOzbarginer("John", "Doe", datetime.strptime('Jan 2 1970', '%b %d %Y'));
+// console.log(test1);
